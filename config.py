@@ -40,7 +40,11 @@ CELL_AREA_M2    = 2.0
 MODEL_PATH = os.path.abspath(os.path.join("runs", "detect", "crowd_monitor_finetuned", "weights", "best.pt"))
 if not os.path.isfile(MODEL_PATH):
     # Since we are multi-threaded now, we can safely use the smarter medium model for maximum accuracy!
+<<<<<<< HEAD
     MODEL_PATH = "yolov10n.pt" if torch.cuda.is_available() else "yolov8m.pt"
+=======
+    MODEL_PATH = "yolov8m.pt" if torch.cuda.is_available() else "yolov8m.pt"
+>>>>>>> 495071087461e092d42da667d368f9d903a9a5ce
     
 DEVICE = "cuda:0" if torch.cuda.is_available() else "cpu"
 
