@@ -1,0 +1,10 @@
+ultralytics
+opencv-python
+numpy
+torch
+torchvision
+alphashape
+shapely
+scipy
+scikit-learn
+pyyaml

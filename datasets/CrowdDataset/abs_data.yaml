@@ -1,0 +1,6 @@
+names:
+- person
+nc: 1
+test: C:\Users\Dell\Downloads\Crowd_Monitoring2\Crowd_Monitoring1\datasets\CrowdDataset\test\images
+train: C:\Users\Dell\Downloads\Crowd_Monitoring2\Crowd_Monitoring1\datasets\CrowdDataset\train\images
+val: C:\Users\Dell\Downloads\Crowd_Monitoring2\Crowd_Monitoring1\datasets\CrowdDataset\valid\images
