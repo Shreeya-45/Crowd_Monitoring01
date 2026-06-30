@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Local data
+homography.npy
+crowd_log.csv
+snapshots/
+
+# Models
+*.pt
+
+# Datasets and Runs
+datasets/*/train/
+datasets/*/valid/
+datasets/*/test/
+datasets/CrowdDataset/runs/
+runs/
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+
